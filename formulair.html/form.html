@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <!-- formulair d'inscription -->
+    <form id="formEntree">
+      <label for="prenomId">Prenom:</label>
+      <input type="text" id="prenomId">
+      <label for="nommillieuId">Nom de millieu:</label>
+      <input type="text" id="nommillieuId">
+      <label for="nomFamilleId">Nom de famille:</label>
+      <input type="text" id="nomFamilleId">
+    </form>
+
+    <form id="formAffichier">
+      <!--<input type="button" value="prenom" onclick="affichePrenom()">-->
+      <!--<input type="button" value="nom millieu" onclick="afficheMillieu()">-->
+      <!--<input type="button" value="nom famille" onclick="afficheFamille()">-->
+      <input type="button" value="nom complet" onclick="affiche('nc')">
+      <input type="button" value="initials" onclick="affiche('ini')">
+      <input type="button" value="utilisateur" onclick="affiche('user')">
+    </form>
+
+    <script src="form.js"></script>
+     <br><a href="index.html">Index</a></br>
+  </body>
+</html>
+
